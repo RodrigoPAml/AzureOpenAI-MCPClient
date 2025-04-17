@@ -1,7 +1,7 @@
 # AzureOpenAI-MCPClient
 A MCP Client implementation with _Azure OpenAI_
 
-This MCP Client was tested with this MCP Server for integration with Sql-Server [here](https://github.com/RodrigoPAml/MCP-SqlServer). 
+This MCP Client was tested with [this](https://github.com/RodrigoPAml/MCP-SqlServer) MCP Server for integration with Sql-Server . 
 
 It only supports tools but integrating prompts and resources should be easy with that.
 
