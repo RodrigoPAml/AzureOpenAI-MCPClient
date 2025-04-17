@@ -11,6 +11,8 @@ namespace Client
 
         static async Task Main()
         {
+            Console.WriteLine("Loading...");
+
             McpClient client = new McpClient(
                 name: "SQL-SERVER_MCP",
                 command: "dotnet",
@@ -44,6 +46,8 @@ namespace Client
 
                 return userInput == "Y" || userInput == "y";
             });
+
+            Console.WriteLine("Type your message:");
 
             while (continueChat)
             {
