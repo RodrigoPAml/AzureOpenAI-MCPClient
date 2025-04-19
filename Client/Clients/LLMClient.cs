@@ -72,7 +72,7 @@ namespace Client.Clients
             await ProcessResponse(response);
         }
 
-        public async Task ProcessResponse(ChatCompletion response)
+        private async Task ProcessResponse(ChatCompletion response)
         {
             switch (response.FinishReason)
             {
